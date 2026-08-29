@@ -22,9 +22,7 @@ The current prototype uses a locally running open-source LLM and is designed as 
 
 ## Application Preview
 
-![AI Migration Advisor - Application](assets/application-home.png)
-
-## Sample Assessment
+### Sample Assessment
 
 ![AI Migration Advisor - Assessment Result](assets/assessment-result.png)
 
