@@ -28,6 +28,27 @@ The current prototype uses a locally running open-source LLM and is designed as 
 
 ---
 
+## Testing Summary
+
+The prototype was tested across four scenarios covering valid migrations, cross-platform BI migration, incomplete information, and an intentionally questionable migration path.
+
+**Test Results: 3 Passed | 1 Failed**
+
+| Scenario | Result |
+|---|---|
+| Azure HDInsight → Microsoft Fabric | ✅ Pass |
+| Spotfire → Power BI | ✅ Pass |
+| Incomplete Migration Input | ✅ Pass |
+| Azure HDInsight → Power BI | ❌ Fail |
+
+The failed test was particularly important: the LLM generated an assessment instead of questioning whether Power BI was an appropriate direct target for HDInsight workloads.
+
+> **Key finding:** Prompt engineering can guide model behaviour, but it cannot guarantee domain-grounded technical correctness.
+
+[View detailed testing results and visual summary](docs/TESTING.md)
+
+---
+
 ## Why I Built This
 
 Enterprise migration assessments typically require understanding multiple factors including workloads, dependencies, data volumes, reporting requirements, custom code, operational constraints and target-platform suitability.
