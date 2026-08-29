@@ -20,6 +20,16 @@ The current prototype uses a locally running open-source LLM and is designed as 
 
 ---
 
+## Application Preview
+
+![AI Migration Advisor - Application](assets/application-home.png)
+
+## Sample Assessment
+
+![AI Migration Advisor - Assessment Result](assets/assessment-result.png)
+
+---
+
 ## Why I Built This
 
 Enterprise migration assessments typically require understanding multiple factors including workloads, dependencies, data volumes, reporting requirements, custom code, operational constraints and target-platform suitability.
