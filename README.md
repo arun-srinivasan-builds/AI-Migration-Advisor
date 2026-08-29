@@ -154,21 +154,6 @@ The final prototype therefore displays a processing state and presents the compl
 
 ---
 
-## Testing
-
-The application was tested with multiple migration scenarios:
-
-1. Azure HDInsight → Microsoft Fabric
-2. Spotfire → Power BI
-3. Incomplete migration scenario
-4. Azure HDInsight → Power BI
-
-Testing included valid scenarios, incomplete information and an intentionally questionable target architecture.
-
-See [Testing](docs/TESTING.md) for detailed results.
-
----
-
 ## Important Finding
 
 The architectural validation test exposed an important limitation.
